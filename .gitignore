@@ -1,0 +1,59 @@
+# Virtual environment
+venv/
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.json
+*.html
+!data/sample.csv
+!data/sales_data.csv
+
+# Logs
+logs/
+*.log
+
+# Jupyter
+.ipynb_checkpoints

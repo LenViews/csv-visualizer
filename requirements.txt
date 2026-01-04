@@ -1,0 +1,28 @@
+# Dependencies for CSV Visualizer
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+
+# Statistics and visualization
+scipy>=1.9.0  # For advanced statistics
+
+# CLI enhancements
+argcomplete>=2.0.0  # For tab completion (optional)
+
+# Testing
+pytest>=7.0.0  # For running tests
+
+# Development tools
+black>=22.0.0  # Code formatting (optional)
+flake8>=5.0.0  # Linting (optional)
+
+# For HTML export (optional - will work without but with limited functionality)
+plotly>=5.11.0
+
+# For colored output (optional)
+colorama>=0.4.6
+
+# For progress bars (optional)
+tqdm>=4.64.0
