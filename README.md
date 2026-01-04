@@ -24,24 +24,24 @@ A powerful command-line tool for analyzing CSV files, computing comprehensive st
     chmod +x setup.sh
     ./setup.sh
 3. Basic Usage:
-    # Analyze a CSV file
+    Analyze a CSV file
     python app/visualize_data.py data/sample.csv
 
-    # Analyze specific columns
+    Analyze specific columns
     python app/visualize_data.py data/sample.csv --columns age salary
 
-    # Customize histogram appearance
+    Customize histogram appearance
     python app/visualize_data.py data/sample.csv --bins 15 --histogram-width 30
 
-    # Sample large dataset
+    Sample large dataset
     python app/visualize_data.py large_data.csv --sample 1000
 
-    # Export results to different formats
+    Export results to different formats
     python app/visualize_data.py data/sample.csv --export csv --output statistics.csv
     python app/visualize_data.py data/sample.csv --export json
     python app/visualize_data.py data/sample.csv --export html
 
-    # Show all statistics
+    Show all statistics
     python app/visualize_data.py data/sample.csv --all-stats
 
 4. Sample Output:
