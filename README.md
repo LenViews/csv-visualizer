@@ -21,19 +21,24 @@ A powerful command-line tool for analyzing CSV files, computing comprehensive st
    git clone <repository-url>
    cd csv-visualizer
 2. Run the setup script:
+    ```bash
     chmod +x setup.sh
     ./setup.sh
 3. Basic Usage:
     Analyze a CSV file
+    ```bash
     python app/visualize_data.py data/sample.csv
 
     Analyze specific columns
+    ```bash
     python app/visualize_data.py data/sample.csv --columns age salary
 
     Customize histogram appearance
+    ```bash
     python app/visualize_data.py data/sample.csv --bins 15 --histogram-width 30
 
     Sample large dataset
+    ```bash
     python app/visualize_data.py large_data.csv --sample 1000
 
     Export results to different formats
