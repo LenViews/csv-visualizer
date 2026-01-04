@@ -47,12 +47,25 @@ A powerful command-line tool for analyzing CSV files, computing comprehensive st
     python app/visualize_data.py data/sample.csv --export html
 
 8. Show all statistics:
+    ```bash
     python app/visualize_data.py data/sample.csv --all-stats
 
 9. Sample Output:
+    =========================================
+    CSV ANALYSIS REPORT: sample.csv
+    =========================================
+    Total Rows: 20, Numeric Columns: 4
+    Histogram Bins: 10, Width: 20 chars
+    =========================================
 
-python app/visualize_data.py data/sample.csv --columns age salary
-================================================================================
+    SUMMARY STATISTICS:
+    Column      | Min    | 25%    | Mean   | Median | 75%    | Max    | Std    | Histogram
+    ----------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ----------
+    age         | 22.0000| 27.2500| 32.8500| 32.5000| 37.7500| 45.0000| 6.6943 | ▁▂▅▇█▇▅▂▁
+    salary      | 45000.0| 51500.0| 60000.0| 59500.0| 66250.0| 80000.0| 9743.5 | ▁▂▄▆██▆▄▂▁
+
+    python app/visualize_data.py data/sample.csv --columns age salary
+    ================================================================================
 CSV ANALYSIS REPORT: sample.csv
 Generated: 2026-01-04 13:20:26
 Total Rows: 20, Numeric Columns: 2
