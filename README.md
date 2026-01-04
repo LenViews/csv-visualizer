@@ -18,7 +18,7 @@ A powerful command-line tool for analyzing CSV files, computing comprehensive st
 
 1. Clone or download the project:
    ```bash
-   git clone <repository-url>
+   git clone <https://github.com/LenViews/csv-visualizer.git>
    cd csv-visualizer
 2. Run the setup script:
     ```bash
